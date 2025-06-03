@@ -46,9 +46,12 @@ class _MakePostState extends State<MakePost> {
                     ),
                   ),
                   child: DottedBorder(
+                    options: RectDottedBorderOptions(
+
                     color: const Color(0xFF808080),
                     strokeWidth: 1.5,
                     dashPattern: const [6, 6],
+                    ) ,
                     child: Container(
                       alignment: Alignment.center,
                       child: Container(
@@ -244,13 +247,14 @@ class _MakePostState extends State<MakePost> {
                       ),
                       TextFormField(
                         expands: false,
+                        maxLines: 5,
                         controller: ticketController.eventAbout,
                         decoration: const InputDecoration(
                           labelText: TText.eventAbout,
                         ),
                       ),
                       const SizedBox(
-                        height: TSizes.spaceBtwItems,
+                        height: TSizes.spaceBtwSections,
                       ),
                     ],
                   ),

@@ -1,0 +1,2 @@
+/home/opoku/Documents/ebefa-mobile-app/android/app/.cxx/Debug/2u2huq25/x86/CMakeFiles/edit_cache.dir
+/home/opoku/Documents/ebefa-mobile-app/android/app/.cxx/Debug/2u2huq25/x86/CMakeFiles/rebuild_cache.dir

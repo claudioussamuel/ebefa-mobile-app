@@ -175,9 +175,12 @@ class _PostVotingScreenState extends State<PostVotingScreen> {
                     ),
                   ),
                   child: DottedBorder(
-                    color: const Color(0xFF808080),
+                    options: RectDottedBorderOptions(
+ color: const Color(0xFF808080),
                     strokeWidth: 1.5,
                     dashPattern: const [6, 6],
+                    ),
+                   
                     child: Container(
                       alignment: Alignment.center,
                       child: Container(
